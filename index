@@ -1,0 +1,108 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My little portfólio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="fotinha">
+                <figure>
+                <img src="assets/images/foto.jpg" alt="eu">
+                </figure>
+            </div>
+            <div class="header">
+                <h1>Luza Barreto</h1>
+                <h2>Desenvolvedora full-stack</h2>
+                <a href="curriculo.html" class="botao-curriculo">Currículo</a>
+            </div>
+        </header>
+        <main>
+            <div class="sobreMim">
+                <center><h3>Sobre mim</h3></center>
+                <div class="conteudo">
+                <div class="texto">
+                    <div class="pessoal">
+                        <h4>Pessoal</h4>
+                        <p>Meu nome é Luza Barreto, tenho 16 anos e estou cursando informática na EEEP Paulo Petrola. Comecei a me interessar por informática na pandemia, mas, por falta de algumas coisas, só fui ter mais contato em 2021, onde fiz meu primeiro jogo no Scratch, e fui aflorando mais meus conhecimentos com o tempo.</p>
+                    </div>
+                    <div class="profissional">
+                        <h4>Profissional</h4>
+                        <p>Ainda não tive uma experiência profissional, mas estou sempre atrás de fazer cursos e aprender um pouco mais. Sei um pouco de Python, C++ e Java, mas tenho mais experiência com Java.</p>
+                    </div>
+                </div>
+                <div class="imagens">
+                    <figure>
+                    <img src="assets/images/code1.jpg" alt="code 1" />
+                    </figure>
+                    <figure>
+                    <img src="assets/images/code2.jpg" alt="code 2">
+                    </figure>
+                </div>
+            </div>
+            </div>
+        <div class="habilidades">
+            <h4>Minhas habilidades</h4>
+            <div class="skills">
+                <div class="front-end">
+                        <div class="destaque">
+                        <center><h5>Desenvolvimento Front-End</h5></center>
+                        </div>
+                        <div class="detalhes">
+                            <ul>
+                            <br>
+                            <li>Efeitos CSS</li>
+                            <br><hr><br>
+                            <li>Animações e Transições</li>
+                            <br><hr><br>
+                            <li>UI & UX</li>
+                            <br>
+                            </ul>
+                        </div>
+                    <div class="projetos">
+                        <h5>Projetos</h5>
+                        <ul>
+                            <li>projeto 1</li>
+                            <br>
+                            <hr><br>
+                            <li>projeto 2</li>
+                            <br><hr><br>
+                            <li>projeto 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="back-end">
+                    <div class="destaque">
+                        <center><h5>Desenvolvimento Back-End</h5></center>
+                    </div>
+                    <div class="detalhes">
+                        <ul>
+                        <br>
+                        <li>Mapeamento de Objetos</li>
+                        <br><hr><br>
+                        <li>Relacionamento de Dados</li>
+                        <br><hr><br>
+                        <li>Orientação a Objetos</li>
+                        <br>
+                        </ul>
+                    </div>
+                    <div class="projetos">
+                        <h5>Projetos</h5>
+                        <ul>
+                            <li>Projeto 1</li>
+                            <br><hr><br>
+                            <li>Projeto 2</li>
+                            <br><hr><br>
+                            <li>Projeto 3</li>
+                        </ul>  
+                    </div>
+                </div>      
+        </main>
+    <footer>
+        <p>Site desenvolvido para teste<br/>
+        Luza &copy; É nois.</p>
+    </footer>
+    </body>
+    </html>
