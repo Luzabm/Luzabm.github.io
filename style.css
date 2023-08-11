@@ -103,10 +103,22 @@
     text-align: center;
 }footer p {
     font-size: 18px;
-}@media (max-width: 758px) {
-    nav ul {
-    flex-direction: column;
-}.column {
-    width: 100%;
+}@media (max-width: 600px) {
+     header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }header .fotinha img {
+        max-width: 100%;
+        height: auto;
+    }header .header {
+        text-align: center;
+    }.sobreMim, .habilidades {
+        margin: 20px;
+    }.sobreMim h3, .habilidades h4, .habilidades h5 {
+        text-align: center;
+    }.skills img {
+        max-width: 100%;
+        height: auto;
     }
 }
