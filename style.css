@@ -109,12 +109,13 @@
         flex-direction: column;
         align-items: center;
      }header .fotinha img {
-        max-width: 100%;
+        max-width: 800px;
         height: auto;
     }header .header {
         text-align: center;
     }.sobreMim, .habilidades {
-        margin: 20px;
+        margin: auto;
+        
     }.sobreMim h3, .habilidades h4, .habilidades h5 {
         text-align: center;
     }.skills img {
